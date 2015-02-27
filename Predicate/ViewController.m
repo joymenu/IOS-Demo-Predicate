@@ -53,9 +53,11 @@
 //    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"self.name CONTAINS '6'"];
 //    NSArray *new = [array filteredArrayUsingPredicate:predicate];
     
+    //
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"self.name LIKE '*6*'"];
     NSArray *new = [array filteredArrayUsingPredicate:predicate];
     
+    //
     NSLog(@"%@",new);
     
     
